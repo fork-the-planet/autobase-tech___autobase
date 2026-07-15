@@ -18,7 +18,7 @@ const OperationLog: FC = () => {
   }, [log.data?.isComplete]);
 
   return (
-    <Box width="100%" height="85vh">
+    <Box width="100%" height="calc(100vh - 112px)">
       <LazyLog
         follow
         scrollToAlignment="end"
